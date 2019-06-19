@@ -14,7 +14,7 @@ class ViewController: UIViewController,CBCentralManagerDelegate,CBPeripheralDele
     // MARK: - Core Bluetooth service IDs
     //let BLE_Heart_Rate_Service_CBUUID = CBUUID(string: "0x180D")
     
-    let BLE_Heart_Rate_Service_CBUUID = CBUUID(string: "61353090-8231-49cc-b57a-886370740041")
+    let BLE_Heart_Rate_Service_CBUUID = CBUUID(string: "0x180D")
     // MARK: - Core Bluetooth characteristic IDs
     let BLE_Heart_Rate_Measurement_Characteristic_CBUUID = CBUUID(string: "0x2A37")
     let BLE_Body_Sensor_Location_Characteristic_CBUUID = CBUUID(string: "0x2A38")
